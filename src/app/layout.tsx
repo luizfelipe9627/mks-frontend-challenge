@@ -5,7 +5,7 @@ import { Providers } from "@/context/Providers";
 export const metadata: Metadata = {
   title: "MKS Sistemas",
   description:
-    "MKS Sistemas é um teste, concorrendo a uma vaga de desenvolvedor front-end.",
+    "MKS Sistemas é uma vitrine de produtos com carrinho de compras, criado como teste para uma vaga de Desenvolvedor Front-end.",
   icons: {
     icon: "favicon.png",
   },
