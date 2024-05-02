@@ -30,8 +30,8 @@ Caso deseje rodar o projeto localmente, siga os passos abaixo:
  # Execute a aplicação em modo de desenvolvimento
  $ npm run dev
 
- # O servidor iniciará na porta:5173 
- $ http://localhost:5173
+ # O servidor iniciará na porta:3000
+ $ http://localhost:3000
 ```
 
 ## Testes unitários
