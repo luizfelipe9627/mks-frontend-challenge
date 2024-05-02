@@ -5,6 +5,7 @@ export const Checkout = styled(motion.div)`
   position: fixed;
   width: 100vw;
   height: 100dvh;
+  z-index: 9999;
 `;
 
 export const Container = styled.div`
