@@ -11,8 +11,8 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     images: [
       {
-        type: "image/webp",
-        url: "/og.webp",
+        type: "image/jpg",
+        url: "https://betadesign.com.br/site/wp-content/uploads/2019/07/comercio-eletronico-cresce-ainda-mais-pelo-celular.jpg",
         alt: "MKS Sistemas",
       },
     ],
