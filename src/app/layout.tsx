@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     images: [
       {
+        type: "image/webp",
         url: "/og.webp",
         alt: "MKS Sistemas",
       },
