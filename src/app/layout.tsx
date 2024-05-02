@@ -6,6 +6,16 @@ export const metadata: Metadata = {
   title: "MKS Sistemas",
   description:
     "MKS Sistemas é uma vitrine de produtos com carrinho de compras, criado como teste para uma vaga de Desenvolvedor Front-end.",
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    images: [
+      {
+        url: "/og.webp",
+        alt: "MKS Sistemas",
+      },
+    ],
+  },
   icons: {
     icon: "favicon.png",
   },
