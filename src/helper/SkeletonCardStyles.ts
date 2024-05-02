@@ -17,7 +17,7 @@ export const TitleContainer = styled.div`
   justify-content: space-between;
   align-items: start;
   padding: 0 0.875rem;
-  margin-bottom: 0.5rem;
+  margin: 0 0.75rem 0.5rem 0;
   width: 100%;
 `;
 
