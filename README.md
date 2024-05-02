@@ -1,44 +1,83 @@
-Diretrizes do desafio
-===========================
+## MKS Front-end Challenge
 
-O propósito primordial desta avaliação consiste em analisar sua proficiência na elaboração de código que seja claro, meticulosamente testado e passível de reutilização. Ao concluir a tarefa, solicitamos a gentileza de proceder com o deployment da aplicação e de nos fornecer, concomitantemente, os links correspondentes ao aplicativo e ao repositório associado. Este procedimento possibilitará uma análise abrangente do seu desempenho, sendo de suma importância para o desdobramento subsequente do processo avaliativo.
+![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
 
-Tarefa (funcional)
----------------
+<img src="https://github.com/luizfelipe9627/mks-frontend/blob/main/src/assets/apresentacao.gif" alt="Apresentação">
 
-Para esse desafio, você deve consumir nossa [API REST de produtos](https://mks-frontend-challenge-04811e8151e6.herokuapp.com/api-docs/) para exibir a lista de produtos da loja.
+## 📄 Descrição
 
-A aplicação deve conter apenas uma página/rota e um carrinho.
+O desafio consiste em criar uma aplicação web que consuma a API de produtos da MKS e exiba os produtos em uma vitrine, podendo ser adicionados ao carrinho de compras e dentro do carrinho de compras, o usuário poderá aumentar ou diminuir a quantidade de produtos, além de poder remover o produto do carrinho e consultar o valor total da compra.
 
-- <b>Loja</b>: A lista de produtos deve ser buscada de nossa API, use um shimmer/skeleton enquanto estiver em loading.
- 
-- <b>Carrinho</b>: O carrinho deve conter todos os produtos selecionados, juntamente com a opção de aumentar a quantidade de cada produto selecionado.
+## 📑 Observação
 
-Use do Jest e a testing-library para realizar os testes unitários.
+Desenvolvi esse projeto com o intuito de mostrar minhas habilidades em desenvolvimento front-end, utilizando as tecnologias mais atuais do mercado, como React, Next.js, TypeScript, Styled-Components, React Query, Jest, entre outras.
 
-Recursos
----------------
+<a href='https://luizfelipe9627-mks-frontend-challenge.netlify.app'>Ver o projeto </a>
 
-UI/UX: [Figma loja](https://www.figma.com/file/ay9JKCd6LKvKLE7TclJJkX/MKS-Front-end-challenge?type=design&node-id=0%3A1&mode=design&t=AlZMI9zkOlhrx6JF-1) PS: O design system está incluso, incluindo a fonte.
+## Instruções para rodar o projeto localmente
+Caso deseje rodar o projeto localmente, siga os passos abaixo:
 
-API: [API REST de produtos](https://mks-frontend-challenge-04811e8151e6.herokuapp.com/api-docs/) para exibir a lista de produtos da loja.
+```bash
+ # Clone este repositório
+ $ git clone https://github.com/luizfelipe9627/teste-front-end-jr
 
-Ferramentas requeridas
----------------
+ # Acesse a pasta do projeto no terminal/cmd
+ $ cd teste-front-end-jr
 
-1. TypeScript
-2. React ou Next.js (Preferimos Next.js)
-3. React-query
-4. Styled-components ou SASS
-5. Framer-motion
-6. Jest
+ # Instale as dependências
+ $ npm install
 
-Aspectos técnicos
----------------
+ # Execute a aplicação em modo de desenvolvimento
+ $ npm run dev
 
-Todas as ferramentas previamente elencadas são consideradas requisitos essenciais e, portanto, imprescindíveis para a realização deste projeto. Adicionalmente, sinta-se à vontade para empregar qualquer outra tecnologia que julgar pertinente e confortável para o desenvolvimento do mesmo. A flexibilidade para a utilização de recursos adicionais visa propiciar um ambiente propício à expressão de suas habilidades e à implementação de soluções que melhor se alinhem à sua abordagem e experiência.
+ # O servidor iniciará na porta:5173 
+ $ http://localhost:5173
+```
 
-Faça o deploy!
----------------
+## Testes unitários
+Os testes unitários foram feitos utilizando a biblioteca Jest, tem o objetivo de testar as funções que manipulam os dados da aplicação. Para executar os testes, siga os passos abaixo:
 
-Ao concluir o desenvolvimento, proceda com o deployment da aplicação no ambiente que lhe for mais conveniente, como por exemplo, AWS Amplify, Vercel, Netlify, Heroku, Amazon EC2, App Runner, entre outros. A escolha da plataforma de hospedagem fica a seu critério, sendo essencial assegurar que o aplicativo esteja acessível de maneira estável e eficaz para a avaliação subsequente.
+```bash
+ # Execute os testes unitários
+ $ npm run test
+```
+
+## Testes unitários em modo watch
+Os testes unitários em modo watch, tem o objetivo de executar os testes e ficar observando as alterações nos arquivos de teste, para executar os testes novamente. Para executar os testes em modo watch, siga os passos abaixo:
+
+```bash
+ # Execute os testes unitários em modo watch
+ $ npm run test:watch
+```
+
+## Tecnologias Utilizadas
+
+- [React](https://pt-br.reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [React Query](https://react-query.tanstack.com/)
+- [React Loading Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
+- [Jest](https://jestjs.io/)
+- [Testing Library](https://testing-library.com/)
+
+## 🧑‍💻 Criador
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/luizfelipe9627">
+        <img src="https://github.com/luizfelipe9627.png" width="100px;" alt="Foto de Luiz Felipe Silva no GitHub"/><br>
+        <sub>
+          <b>Luiz Felipe Silva</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 📷 Me siga nas redes sociais<br>
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/luizfelipe9627/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+</p>
