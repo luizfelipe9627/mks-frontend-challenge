@@ -2,7 +2,7 @@
 
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
 
-<img src="https://github.com/luizfelipe9627/mks-frontend/blob/main/src/assets/apresentacao.gif" alt="Apresentação">
+<img src="https://github.com/luizfelipe9627/mks-frontend-challenge/blob/main/src/assets/apresentacao.gif" alt="Apresentação">
 
 ## 📄 Descrição
 
@@ -19,10 +19,10 @@ Caso deseje rodar o projeto localmente, siga os passos abaixo:
 
 ```bash
  # Clone este repositório
- $ git clone https://github.com/luizfelipe9627/teste-front-end-jr
+ $ git clone https://github.com/luizfelipe9627/mks-frontend-challenge
 
  # Acesse a pasta do projeto no terminal/cmd
- $ cd teste-front-end-jr
+ $ cd mks-frontend-challenge
 
  # Instale as dependências
  $ npm install
@@ -30,8 +30,8 @@ Caso deseje rodar o projeto localmente, siga os passos abaixo:
  # Execute a aplicação em modo de desenvolvimento
  $ npm run dev
 
- # O servidor iniciará na porta:5173 
- $ http://localhost:5173
+ # O servidor iniciará na porta:3000
+ $ http://localhost:3000
 ```
 
 ## Testes unitários
@@ -60,6 +60,8 @@ Os testes unitários em modo watch, tem o objetivo de executar os testes e ficar
 - [React Loading Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
 - [Jest](https://jestjs.io/)
 - [Testing Library](https://testing-library.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [ESLint](https://eslint.org/)
 
 ## 🧑‍💻 Criador
 
